@@ -1,0 +1,285 @@
+@media (max-width: 992px) {
+  .teachers__img {
+    width: 100%;
+  }
+
+  .courses__item {
+    min-height: 376px;
+  }
+
+  .courses__btn {
+    max-width: 195px;
+  }
+
+  .courses__time {
+    top: 10px;
+    right: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__logo {
+    display: flex;
+    padding: 29px 0 29px;
+  }
+
+  .hero__content {
+    padding: 130px 0 135px;
+    background-image: url("../img/hero-background-tablet-img.png");
+    background-size: 48%;
+    background-position: right 43%;
+  }
+
+  .hero__title {
+    margin-bottom: 16px;
+    font-size: 50px;
+  }
+
+  .hero__descr {
+    margin-bottom: 63px;
+    max-width: 345px;
+    font-size: 18px;
+  }
+
+  .benefits {
+    padding: 80px 0 77px;
+  }
+
+  .benefits__header {
+    padding-left: 240px;
+    background-position: left 45.6%;
+    background-size: 30.5%;
+  }
+
+  .benefits__item {
+    padding: 91px 0 0;
+    height: fit-content;
+    background-position: left top;
+  }
+
+  .teachers {
+    padding: 75px 0 76px;
+  }
+
+  .teachers__title {
+    margin-bottom: 21px;
+  }
+
+  .teachers__img {
+    margin-bottom: 27px;
+  }
+
+  .teachers__descr {
+    width: 101%;
+  }
+
+  .courses {
+    padding-top: 72px;
+  }
+
+  .courses__list {
+    row-gap: 30px;
+  }
+
+  .courses__title {
+    margin-bottom: 23px;
+  }
+
+  .courses__item-blender {
+    padding-right: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__logo {
+    justify-content: center;
+    padding: 30px 0 31px;
+  }
+
+  .header__nav {
+    padding-bottom: 30px;
+  }
+
+  .hero__content {
+    background-image: none;
+  }
+
+  .teachers__descr-mobile {
+    display: block;
+  }
+
+  .courses__item {
+    min-height: 473px;
+  }
+
+  .courses__item-blender {
+    padding-right: 30px;
+  }
+
+  .courses__subtitle {
+    line-height: 129%;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero__content {
+    padding: 77px 0 135.5px;
+  }
+
+  .hero__descr {
+    margin-bottom: 62px;
+  }
+
+  .hero__btn {
+    padding: 25px 76px 23px;
+  }
+
+  .benefits {
+    padding: 80px 0 55px;
+  }
+
+  .benefits__header {
+    padding-left: 180px;
+    background-position: left top;
+    background-size: 29.5%;
+  }
+
+  .teachers {
+    padding: 75px 0 73px;
+  }
+
+  .teachers__title {
+    margin-bottom: 23px;
+  }
+
+  .courses {
+    padding-top: 74px;
+  }
+
+  .courses__btn {
+    padding: 20px 0;
+  }
+
+  .courses__item-3d-subtitle {
+    display: block;
+  }
+
+  .courses__subtitle {
+    margin-bottom: 8px;
+  }
+
+  .courses__subtitle-3d {
+    width: 93%;
+  }
+
+  .courses__subtitle-ZBrush {
+    margin-bottom: 8px;
+    padding-top: 2px;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn {
+    font-size: 16px;
+  }
+
+  .section {
+    padding: 50px 0;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .header__nav {
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+
+  .hero__content {
+    padding: 50px 0;
+  }
+
+  .hero__title {
+    margin-bottom: 4px;
+  }
+
+  .header__logo {
+    padding: 25px 0 27px;
+  }
+
+  .header__nav {
+    justify-content: start;
+    padding-bottom: 24px;
+  }
+
+  .header__list {
+    margin-left: 0;
+  }
+
+  .hero__title {
+    font-size: 30px;
+  }
+
+  .hero__descr {
+    margin-bottom: 46px;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .hero__btn {
+    padding: 21px 54px;
+  }
+
+  .benefits__header {
+    padding: 0;
+    background-image: none;
+  }
+
+  .benefits__title {
+    margin-bottom: 1px;
+    line-height: 130%;
+  }
+
+  .benefits__item {
+    padding: 0 0 0 110px;
+  }
+
+  .benefits__item-col:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .teachers {
+    padding: 48px 0 47px;
+  }
+
+  .teachers__title {
+    margin-bottom: 26px;
+  }
+
+  .teachers__list {
+    row-gap: 23px;
+  }
+
+  .courses {
+    padding: 46px 0 50px;
+  }
+
+  .courses__title {
+    margin-bottom: 27px;
+  }
+
+  .courses__img {
+    width: 100%;
+  }
+
+  .courses__subtitle-3d {
+    width: 73%;
+  }
+}
